@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PrepAI — Interview Question Generator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="app-shell">
+
+    <nav class="navbar">
+      <div class="brand">
+        <div class="brand-mark">✦</div>
+        <div>
+          <strong>Prep<span>AI</span></strong>
+          <small>INTERVIEW STUDIO</small>
+        </div>
+      </div>
+
+      <div class="nav-status">
+        <span class="status-dot"></span>
+        Smart preparation mode
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="eyebrow">
+        <span>✦</span> AI-POWERED CAREER PREP
+      </div>
+
+      <h1>
+        Prepare smarter.<br>
+        <span>Interview stronger.</span>
+      </h1>
+
+      <p>
+        Generate thoughtful interview questions tailored to your dream role
+        and practice with confidence.
+      </p>
+    </section>
+
+    <section class="generator-card">
+      <div class="card-heading">
+        <div class="heading-icon">⌘</div>
+        <div>
+          <h2>Build your interview set</h2>
+          <p>Tell us what role you're preparing for.</p>
+        </div>
+      </div>
+
+      <div class="input-row">
+        <div class="input-wrap">
+          <label for="roleInput">TARGET ROLE</label>
+
+          <div class="input-field">
+            <span>⌕</span>
+            <input
+              id="roleInput"
+              type="text"
+              placeholder="e.g. Frontend Developer"
+              autocomplete="off"
+            >
+          </div>
+        </div>
+
+        <button id="generateBtn" onclick="generateQuestions()">
+          Generate questions <span>↗</span>
+        </button>
+      </div>
+
+      <div class="quick-roles">
+        <span>Try:</span>
+        <button onclick="useRole('Frontend Developer')">
+          Frontend Developer
+        </button>
+        <button onclick="useRole('Software Engineer')">
+          Software Engineer
+        </button>
+        <button onclick="useRole('Data Analyst')">
+          Data Analyst
+        </button>
+      </div>
+    </section>
+
+    <section class="results-section">
+      <div class="results-header">
+        <div>
+          <div class="section-label">YOUR PERSONALIZED SET</div>
+          <h2>
+            Interview questions
+            <span id="questionCount">0</span>
+          </h2>
+        </div>
+
+        <button
+          class="copy-all"
+          id="copyAllBtn"
+          onclick="copyAllQuestions()"
+          disabled
+        >
+          ▣ Copy all
+        </button>
+      </div>
+
+      <div id="emptyState" class="empty-state">
+        <div class="empty-icon">✧</div>
+        <h3>Your questions will appear here</h3>
+        <p>Enter a role above to create a focused practice set.</p>
+      </div>
+
+      <div id="questions" class="questions-grid"></div>
+    </section>
+
+    <footer>
+      <span>Designed for focused preparation</span>
+      <span>⌁ Practice. Improve. Succeed.</span>
+    </footer>
+
+  </main>
+
+  <div id="toast" class="toast">
+    Question copied to clipboard
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
