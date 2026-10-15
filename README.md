@@ -1,93 +1,98 @@
-# AI Interview Question Generator
+# 🤖 AI Interview Question Generator
 
-A clean and responsive web application that helps users generate interview questions based on their target job role. Enter a role such as Frontend Developer or Software Engineer and get a personalized set of practice questions.
+An AI-focused web application designed to help students and job seekers prepare for technical interviews by generating interview questions for practice and self-assessment.
 
-🔗 **Live Demo:** https://parthonag07.github.io/Ai-interview-question-generator/
+## 🌐 Live Demo
+
+🚀 **[Try AI Interview Question Generator](https://ai-interview-question-generator-virid.vercel.app/)**
 
 ## ✨ Features
 
-* Generate interview questions based on a job role
-* Clean and premium dark-themed UI
-* Responsive design for desktop and mobile
-* Quick role suggestions
-* Copy individual questions
-* Copy all questions at once
-* Press Enter to generate questions
-* Smooth scrolling to generated results
-* Toast notifications for copy actions
-* No backend required
+- 🤖 AI-focused interview preparation interface
+- 💻 Technical interview practice
+- 📝 Interview question generation interface
+- 🎯 Designed for students and job seekers
+- 🎨 Modern and user-friendly UI
+- 📱 Responsive design for different screen sizes
+- ⚡ Interactive user experience
+
+*List only the features that are actually implemented in your project.*
 
 ## 🛠️ Tech Stack
 
-* **HTML5** — Structure
-* **CSS3** — Styling, responsive design, and animations
-* **JavaScript** — Question generation and interactive functionality
-* **Google Fonts** — Inter typography
-* **GitHub Pages** — Deployment
+- HTML5
+- CSS3
+- JavaScript
+- Vercel — Deployment
 
-## 📂 Project Structure
+*Update this section if your actual project uses React, an AI API, or other technologies.*
 
-```text
-AI-Interview-Question-Generator/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
+## 🎯 Project Objective
+
+The goal of this project is to make interview preparation more accessible by providing a convenient platform for practicing technical interview questions and improving interview readiness.
 
 ## 🚀 Getting Started
+
+### Prerequisites
+
+- A modern web browser
+- Visual Studio Code
+- Git (optional)
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/ParthoNag07/Ai-interview-question-generator.git
+git clone YOUR_GITHUB_REPOSITORY_URL
 ```
 
-### 2. Open the project
+### 2. Open the project folder
 
 ```bash
-cd Ai-interview-question-generator
+cd YOUR_PROJECT_FOLDER
 ```
 
 ### 3. Run the project
 
-Open `index.html` in your browser.
+If the project uses plain HTML, CSS, and JavaScript, open `index.html` in your browser or use the Live Server extension in Visual Studio Code.
 
-You can also use **Live Server** in VS Code for a better development experience.
+If the project uses a framework such as React and Vite, follow the installation instructions in its `package.json`.
 
-## 💡 How It Works
+## 📁 Example Project Structure
 
-1. Enter your target job role.
-2. Click **Generate questions**.
-3. The application creates a set of interview questions.
-4. Click any question to copy it.
-5. Use **Copy all** to copy the complete question set.
+```text
+ai-interview-question-generator/
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+└── README.md
+```
 
-## 📸 Preview
+*Adjust the structure to match your actual repository.*
 
-Visit the live demo to explore the application:
+## 🔮 Future Enhancements
 
-https://parthonag07.github.io/Ai-interview-question-generator/
-
-## 🔮 Future Improvements
-
-* AI-powered question generation using an API
-* Category-wise questions (Technical, HR, Behavioral)
-* Difficulty levels
-* Answer suggestions
-* Interview practice mode
-* Question history
-* Dark/light theme toggle
+- Role-based interview questions
+- Difficulty levels: Beginner, Intermediate, and Advanced
+- Topic-wise question generation
+- AI-generated answers and explanations
+- Mock interview mode
+- Interview performance tracking
+- Personalized preparation plans
 
 ## 👨‍💻 Author
 
 **Partho Nag**
 
-* GitHub: [@ParthoNag07](https://github.com/ParthoNag07)
-* LinkedIn: [Partho Nag](https://www.linkedin.com/in/partho-nag-09132532b/)
+- GitHub: [@ParthoNag07](https://github.com/ParthoNag07)
+- LinkedIn: [Connect with me](https://www.linkedin.com/in/partho-nag-09132532b/)
 
 ## 📄 License
 
-This project is open source and available for learning and personal use.
+This project is intended for educational and portfolio purposes. Add an appropriate open-source license if you plan to distribute the source code.
 
+---
+
+⭐ If you find this project useful, consider starring the repository!
+
+**Built with ❤️ by Partho Nag**
